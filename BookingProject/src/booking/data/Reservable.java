@@ -3,8 +3,13 @@ package booking.data;
 public interface Reservable {
 
 	boolean isFreePlaceNow();
-	boolean checkin();
-	boolean checkout();
 
+	default boolean checkin() {
+		if (isFreePlaceNow() == true)
+			return true;
+		return false;
+	};
+
+	boolean checkout();
 
 }

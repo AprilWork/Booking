@@ -1,4 +1,4 @@
-package booking.data;
+package booking.reserving;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;

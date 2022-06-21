@@ -1,4 +1,4 @@
-package booking.data;
+package booking.reserving;
 
 public interface Reservable {
 

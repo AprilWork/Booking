@@ -1,4 +1,4 @@
-package booking.data;
+package booking.reserving;
 
 import java.time.LocalDate;
 import java.time.Period;
